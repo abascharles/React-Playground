@@ -6,6 +6,7 @@ import Card from"./Card.jsx";
 import Button from "./Button.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
+import List from "./List.jsx"
 function App() {
 return(
     <>
@@ -25,8 +26,11 @@ return(
         {/*defaultProps*/}
         <Student/>
 
-    {/*    Conditional rendering*/}
+        {/*Conditional rendering*/}
         <UserGreeting isLoggedIn = {true}  username = "Ustadh" />
+
+        {/*List*/}
+        <List/>
     </>
 );
 }
